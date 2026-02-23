@@ -60,6 +60,9 @@ INSTALLED_APPS = [
     'recommendations',
 ]
 
+# Use custom user model
+AUTH_USER_MODEL = 'users.User'
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'corsheaders.middleware.CorsMiddleware',
